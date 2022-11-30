@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THAN PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/66b1e63d3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>INTERN</p>
+            <h1>HI, I AM <span>THANYARET</span><br>SEANGSRICHAN <span1>FROM CAMT CMU</span1></h1>
+        </div>
+    </div>
+</div>
+<!-- --------------------------------ABOUT ME ------------------------------------------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <P>Knowledgeable, performance-driven, and detail-oriented MMIT student 
+                    who excels at configuring and developing automation scripts expertise, 
+                    well-developed communication skills, and important ability to perform 
+                    well in a term. Thanyaret is presently looking for any IT related internship 
+                    with a modern company.
+                </P>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('project')">Project</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming</span><br><br><i class="fa-solid fa-arrow-right"></i>&nbsp;PHP, HTML, CSS, JavaScript, MySQL, Python</li>
+                        <li><span>Source Code Control</span><br><br><i class="fa-solid fa-arrow-right"></i>&nbsp;Visual SourceSafe(VSS), Git, Ant</li>
+                        <li><span>Databases</span><br><br><i class="fa-solid fa-arrow-right"></i>&nbsp;SQL Server, MySQL Workbench, phpMyAdmin</li>
+                        <li><span>MS Office</span><br><br><i class="fa-solid fa-arrow-right"></i>&nbsp;Excel, Power BI, Power Point, Word, Outlook</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Teacher Assistant (TA)</span><br><br><i class="fa-solid fa-arrow-right"></i>&nbsp;954340 - Database Design and Apps </li>
+                        <li><span>work scholarship</span><br><br><i class="fa-solid fa-arrow-right"></i>&nbsp;Information assistance with documents</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="project">
+                    <ul>
+                        <li><span>Project Speed Devil Performance</span><br><br><i class="fa-solid fa-arrow-right"></i>&nbsp;Database by MySQL</li>
+                        <li><span>Website “Covid risk areas and news” </span><br><br><i class="fa-solid fa-arrow-right"></i>&nbsp;By HTML CSS</li>
+                        <li><span>IoT for An environmental</span><br><i class="fa-solid fa-arrow-right"></i>&nbsp;monitoring system has 8 nodes.By Arduino, PHP, MySQL, PlanetSale</li>
+                        <li><span>Digital MKT In Tour</span><br><i class="fa-solid fa-arrow-right"></i>&nbsp;Scrape Data From TripAdvisor And Analysis The SERQUAL.By Web Scraper, MS Excel, Power BI</li>
+                        <li><span>Project E-Commerce</span><br><i class="fa-solid fa-arrow-right"></i>&nbsp;Build a business and create Online Store.By WordPress, OpenCart, phpMyAdmin, Excel, MySQL</li>
+                    </ul>
+                </div>
+                <div class="tab-contents " id="education">
+                    <ul>
+                        <li><span>2020 - Current</span><br><span1>College of Arts, Media and Technology, Chiang Mai University</span1><br><br>
+                            <i class="fa-solid fa-arrow-right"></i>&nbsp;Modern Management and Information Technology (Bilingual Program)
+                        </li><br>
+                        <li><span>2014 - 2019</span><br><span1>Chiang Kham Wittayakom School, Phayao</span1><br><br>
+                            <i class="fa-solid fa-arrow-right"></i>&nbsp;( Enrichment Program of Science, Mathematics, Technology and Environment )
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------------PORTFOLIO------------------------------------------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Portfolio</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h2>Awards & Honors</h2>
+                <p>Certificate of participation and competitions related to programming</p>
+                <a href="portfolio.html"><span><i class="fa-solid fa-arrow-up-from-bracket"></i></span>  Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Project</h2>
+                <p>Collect all the projects I've worked on. in subjects related to programming, data analysis/management and website design</p>
+                <a href="project.html"><span><i class="fa-solid fa-arrow-up-from-bracket"></i></span>  Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-glasses"></i>
+                <h2>Hobbies & Interest</h2>
+                <p>Activities and interests in your spare time including special skills(Soft skill&Hard skill).</p>
+                <a href="hobbies.html"><span><i class="fa-solid fa-arrow-up-from-bracket"></i></span>  Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------WORK----------------------------------------------------------------->
+
+
+
+<!---------------------------CONTACT------------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Thxnx36@gmail.com</p>
+                <p><i class="fa-solid fa-paper-plane"></i>Tunyaret_s@elearning.cmu.ac.th</p>
+                <p><i class="fa-solid fa-phone"></i>062 4935285</p>
+                <p><i class="fa-solid fa-globe"></i>https://webportfolio-928cd.web.app</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100002225471167"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://line.me/ti/p/7wmuXSUWyV"><i class="fa-brands fa-line"></i></a>
+                    <a href="https://www.kaggle.com/tunyaretsaengsrichan/account"><i class="fa-brands fa-kaggle"></i></a>
+                    <a href="https://github.com/Thxnx36"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/CV1.pdf" download class="btn btn2">Download CV</a> 
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-heart"></i>   <span><i class="fa-solid fa-heart"></i></span> Copyright © THANYARET. Made with by Thanyaret Seangsrichan CAMT CMU   <i class="fa-solid fa-heart"></i>  <span><i class="fa-solid fa-heart"></i></span></p>
+    </div>
+</div>
+
+<!-------------------------------------------JavaScript------------------------------------------------------>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<!---------------------------------Send message to google sheets------------------------------------>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzgwDzRBnML6mLz7Z69M5CNg1os5fLzxo6ZzT7O0JHCxmpmDl7ijzEu9sKhmA4WdtY0zQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
